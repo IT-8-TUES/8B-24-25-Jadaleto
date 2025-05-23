@@ -10,7 +10,6 @@
     padding-right: 3.2rem;
 }
 .navOpt{
-    color:#007bff;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -24,7 +23,7 @@
     width: auto;
 }
 a{
-    color: #007bff;
+    color: #0056f3;
     font-size: 1.2rem;
     margin-left: 3rem;
 }
@@ -53,7 +52,7 @@ background-repeat: no-repeat;
 background-position: center center;
 width: 96.6%;
 padding: 2rem;
-height: 52rem;
+height: 49rem;
 }
 /*on sale css*/
 .most-popular {
@@ -199,4 +198,4 @@ img{
 }
 #d1{
     height: 1rem;
-}
+} 
