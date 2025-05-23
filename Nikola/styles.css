@@ -29,7 +29,56 @@ a{
     font-size: 1.1rem;
     margin-left: 3rem;
 }
-/*sec1 css*/
+/* Main container for offers */
+.offers-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 20px;
+background-color: lightgray;
+}
+/* Each offer box */
+.offer-box{
+background-color: white;
+border: 1px solid #ccc;
+border-radius: 10px;
+width: 250px;
+margin: 15px;
+padding: 15px;
+text-align: center;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+/* Product image */
+.offer-box img {
+height: 200px;
+object-fit: contain;
+margin-bottom: 10px;
+}
+/* Price text */
+.price {
+font-weight: bold;
+color: black;
+margin-top: 10px;
+text-align: right;
+}
+/* Buy button */
+.buy-button{
+text-align: center;
+background-color: #28a745;
+color: white;
+border: none;
+padding: 10px 20px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+display: inline-block;
+margin-top: 10px;
+}
+.buy-button:hover{
+background-color: #218838;
+}
+ /*sec1 css*/
 /* footer css*/
 .f{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
