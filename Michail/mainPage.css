@@ -157,8 +157,9 @@ height: 49rem;
     padding-left:1rem;
     padding-right: 0.8rem;    
 }
-.info input[type="email"]:focus{
-    border: 1.5px solid;  
+.info input:focus{
+    border: 1.5px solid;
+    outline: none;  
 }
 .info button{
   font-size: 1.05rem;
