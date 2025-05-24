@@ -1,6 +1,6 @@
 <html>
     <head>
-    <title>Offers</title>
+    <title>Reviews</title>
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -9,7 +9,7 @@
                 <img class="logo" src="ChatGPT-Image-May-16_-2025_-06_38_55-PM.png" alt="logo" title="logo">
                 <nav>
                     <div class="links">
-                       <a class="item1" href="#">Home</a>
+                        <a class="item1" href="#">Home</a>
                        <a class="item2" href="#">Offers</a>
                        <a class="item3" href="#">Reviews</a>
                        <a class="item4" href="#">About us</a>
@@ -17,27 +17,26 @@
                 </nav>
             </div>
         </header>
-        <main class="offers-container">
-            <div class="offer-box">
-            <img src="Product-zoom-651955.jpg" alt="LG Washing machine" class="offer-image">
-            <h2>LG Washing machine - Model L F4WR711S3HA</h2>
-            <div class="price">1000 BGN</div>
-            <a href="#" class="buy-button">BUY</a>
-            </div>
-            <div class="offer-box">
-            <img src="Lg.jpg" alt="Dishwasher" class="offer-image">
-            <h2>LG Smart dishwasher - Model LDFN4542S</h2>
-            <div class="price">400 BGN</div>
-            <a href="#" class="buy-button">BUY</a>
-            </div>
-            <div class="offer-box">
-            <img src="micro.jpg" alt="Microwave" class="offer-image">
-            <h2>Microwave oven - Model LG MH6336GIB </h2>
-            <div class="price">300 BGN</div>
-            <a href="#" class="buy-button">BUY</a>
-            </div>
+        <main class="reviews-container">
+            <section class="review-form">
+                <h2>Leave a review</h2>
+                <input type="text" id="name" placeholder="Your name">
+                <select id="rating">
+                    <option value="">Rating</option>
+                    <option value="⭐">⭐</option>
+                    <option value="⭐⭐">⭐⭐</option>
+                    <option value="⭐⭐⭐">⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+                </select>
+                <textarea id="comment" placeholder="Your review"></textarea>
+                <button onclick="addReview()">Submit</button>
+            </section>
+            <section class="review-list" id="review-list">
+                <h2>All reviews</h2>
+            </section>
         </main>
-       <footer class="f">
+         <footer class="f">
         <div id="d1">
             <h3 class="fHead1">Contacts</h3>
             <p>(+359)835468936</p>
@@ -53,7 +52,7 @@
             <p>© 2025 Thrax Market. All rights reserved</p>
         </div>
     </footer>
-</body>
+    <script src="reviews.js"></script>
+    </body>
 </html>
-            
         
