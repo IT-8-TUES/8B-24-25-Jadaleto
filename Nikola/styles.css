@@ -82,6 +82,39 @@ text-align: center;
 .buy-button:hover{
 background-color: #218838;
 }
+/* Reviews page css*/
+.reviews-container{
+max-width: 600px;
+margin: 20px auto;
+padding: 15px;
+background: white;
+border-radius: 8px;
+box-shadow: 0 0 10px #ccc;
+}
+.review-form input,
+.review-form select,
+.review-form textarea{
+width: 100%;
+padding: 10px;
+margin-top: 8px;
+margin-bottom: 12px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.review-form button{
+background-color: #28a745;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+font-weight: bold;
+border-radius: 5px;
+}
+.review-item{
+border-top: 1px solid #ddd;
+padding-top: 10px;
+margin-top: 10px;
+}
  /*sec1 css*/
 /* footer css*/
 .f{
