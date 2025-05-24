@@ -33,7 +33,7 @@ body {
 
 .wrapper {
   width: 420px;
-  background: rgb(0, 0, 158) ;
+  background: #0056f3 ;
   color: white;
   padding: 30px 40px;
   border-radius: 10px;
@@ -128,4 +128,10 @@ body {
   color: white;
   cursor: pointer;
   font-size: 14px;
+}
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.03); 
+  transition: transform 0.2s ease;
+        
 }
