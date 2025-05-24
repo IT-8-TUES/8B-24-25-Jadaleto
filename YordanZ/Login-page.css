@@ -10,14 +10,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: green;
+  background-color: lightgray;
   background-size: cover;
   background-position: center;
 }
 
 .wrapper {
   width: 420px;
-  background: purple;
+  background: rgb(0, 0, 158) ;
   color: white;
   padding: 30px 40px;
   border-radius: 10px;
@@ -51,6 +51,7 @@ body {
   color: white;
 }
 .wrapper .remember-forgot{
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   margin: -15px 0 15px ;
@@ -58,6 +59,9 @@ body {
 .remember-forgot label input {
   color :white;
   margin-right:5px;
+}
+.remember-forgot a{
+  color :white;
 }
 .remember-forgot a:hover{
   text-decoration: underline;
@@ -77,6 +81,7 @@ body {
 }
 
 .wrapper .register-link{
+  
   font-size: 14.5px;
   text-align: center;
   margin: 20px 0 15px;
