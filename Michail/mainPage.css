@@ -118,20 +118,25 @@ height: 49rem;
   color: #cccccc;
 }
 
-.product-card button {
+.product-card .Cbtn {
+  display: inline-block;
   margin-top: 1rem;
   background-color: #007bff;
   color: white;
-  border: none;
-  padding:0.7rem 1.5rem;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
   border-radius: 0.5rem;
-  cursor: pointer; 
+  cursor: pointer;
   transition: background 0.3s;
+  text-align: left;
 }
 
-.product-card button:hover {
+
+.Cbtn:hover {
+  color: white;
   background-color: #0056b3;
 }
+
 /*info css*/
 .info{
     background: linear-gradient(to bottom, aliceblue, white);
